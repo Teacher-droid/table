@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/icon.gif">
+    <title>Table</title>
+</head>
+<body>
+
+    <!-- table : stand for defines an HTML table -->
+
+    <!-- tr stand for defines a table row in an HTML table  -->
+
+    <!-- td stand for defines a table cell in an HTML table -->
+
+    <!-- th stand for defines a header cell in an HTML table  -->
+
+    <!-- caption stand for defines a table caption(title) in an HTML table -->
+
+    <!-- th tag and td tag both stand for defines a cell 
+         the difference is in the ability to target the header's cell among others, 
+         therefore applying varieties of style   -->
+
+      <form oninput="calculCotisation();">
+        <table class="table-facture" id="table-facture">
+          <caption>Année 2018 - 2019</caption>
+          <thead>
+            <tr>
+              <th>Activité</th>
+              <th>Cotisation</th>
+              <th>Inscrit</th>
+              <th>Prix</th>
+            </tr>
+          </thead>
+          <tbody>
+     
+          </tbody>
+          <tfoot>
+            <tr>
+              <th class="lib-total" colspan="3">Total</th>
+              <th class="fld-num" id="total">0 €</th>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
