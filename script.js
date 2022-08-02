@@ -117,4 +117,5 @@
               cellTarif.className = 'fld-num';
             }
           }
+
       
