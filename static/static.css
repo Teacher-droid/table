@@ -1,0 +1,64 @@
+/* # static table style including rows and cells  */
+
+
+.table-facture th,
+.table-facture td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+
+.table-facture {
+    border-collapse: collapse;
+
+    
+  }
+   
+  .table-facture th,
+  .table-facture td {
+    border: 1px solid gray;
+    padding: 5px;
+    
+  }
+
+
+  .table-facture .lib-total {
+    text-align: right;
+    border-style: none;
+    
+  }
+   
+  td.lib-acti {
+    font-style: italic;
+    width: 200px;
+    
+  }
+   
+  td.fld-num,
+  th.fld-num {
+    text-align: right;
+    width: 60px;
+    
+  }
+   
+  td.fld-log {
+    text-align: center;
+    
+  }
+
+  .table-facture thead {
+    background-color: aqua;
+    
+    
+  }
+   
+  .table-facture tbody {
+    background-color: ivory;
+    
+  }
+
+    table > caption {
+      font-size: 20px;
+      padding: 5px;
+      
+    }
